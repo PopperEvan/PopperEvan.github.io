@@ -89,7 +89,7 @@
 <meta property="og:site_name" content="PopperEvan">
 <meta property="og:description" content="Markdown简介Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。 官网：https://markdown-zh.readthedocs.io/en/latest/">
 <meta property="og:locale" content="zh-tw">
-<meta property="og:updated_time" content="2018-11-23T18:41:46.295Z">
+<meta property="og:updated_time" content="2018-11-23T18:45:21.858Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Markdown基本语法">
 <meta name="twitter:description" content="Markdown简介Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。 官网：https://markdown-zh.readthedocs.io/en/latest/">
@@ -310,7 +310,7 @@
               
                 <span class="post-meta-item-text">更新於&#58;</span>
               
-              <time title="更新於" itemprop="dateModified" datetime="2018-11-24T02:41:46+08:00">
+              <time title="更新於" itemprop="dateModified" datetime="2018-11-24T02:45:21+08:00">
                 2018-11-24
               </time>
             
@@ -463,9 +463,9 @@
 </blockquote>
 <p>注：返回上级引用，中间应回车加上一级的『&gt;』数量</p>
 <h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><p>代码块用以呈现须原样输出的文本。代码块有两种，一种在行内（即行内代码块），另一种可以跨行（即多行代码块）。行内代码块编译后会被 Html 的 <code>&lt;code&gt;&lt;/code&gt;</code>标签对包围；而跨行代码块会被编译到<code>&lt;pre&gt;&lt;code&gt;&lt;/pre&gt;&lt;/code&gt;</code>标签对中。</p>
-<h5 id="行内代码块"><a href="#行内代码块" class="headerlink" title="行内代码块"></a>行内代码块</h5><p>行内代码块以两个`字符包围    </p>
+<h3 id="行内代码块"><a href="#行内代码块" class="headerlink" title="行内代码块"></a>行内代码块</h3><p>行内代码块以两个`字符包围    </p>
 <p>如：<code>我是代码块</code></p>
-<h5 id="多行代码块"><a href="#多行代码块" class="headerlink" title="多行代码块"></a>多行代码块</h5><p>每行都需要以至少四个半角空格（或以至少一个Tab符）开头.</p>
+<h3 id="多行代码块"><a href="#多行代码块" class="headerlink" title="多行代码块"></a>多行代码块</h3><p>每行都需要以至少四个半角空格（或以至少一个Tab符）开头.</p>
 <p><strong>实例：</strong></p>
 <p>□□□□function DeleteText()□□<br>□□□□{□□<br>□□□□□□□□string s = “示例文本”;□□<br>□□□□□□□□…□□<br>□□□□□□□□ClipBoard.Delete();□□<br>□□□□}□□<br>[Tab]function DeleteImage()□□<br>[Tab]{□□<br>[Tab][Tab]Image img = new Image();□□<br>[Tab][Tab]…□□<br>[Tab][Tab]ClipBoard.Delete();□□<br>[Tab]}□□  </p>
 <p>转译后：</p>
@@ -482,7 +482,7 @@ function DeleteImage()
  ClipBoard.Delete();  
 } 
 </code></pre><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><p>列表有两种：无序列表、有序列表。</p>
-<h5 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h5><p>　以<code>-</code>、<code>+</code>、<code>*</code>这三个字符开头的行是无序列表项。这三个字符使用任意一个字符都可以，编译后的结果是一样的。</p>
+<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><p>　以<code>-</code>、<code>+</code>、<code>*</code>这三个字符开头的行是无序列表项。这三个字符使用任意一个字符都可以，编译后的结果是一样的。</p>
 <p>　注：使用<code>*</code>作为列表开头会与加粗、倾斜这两种效果冲突，所以尽可能不要用！！！如果实在必须在一行开头使用<code>*</code>来表示无序列表，要注意必须在后面跟一个空格（全、半角均可）,或者格式化一下。<br>如：</p>
 <p><code>+</code>无序列表 </p>
 <ul>
@@ -496,10 +496,10 @@ function DeleteImage()
 <ul>
 <li>无序列表</li>
 </ul>
-<h5 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h5><pre><code>1. 有序列表以数字和 `.` 开始；
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><pre><code>1. 有序列表以数字和 `.` 开始；
 3. 数字的序列并不会影响生成的列表序列；
 4. 但仍然推荐按照自然顺序（1.2.3...）编写。
-</code></pre><h5 id="嵌套列表"><a href="#嵌套列表" class="headerlink" title="嵌套列表"></a>嵌套列表</h5><pre><code>1. 第一层
+</code></pre><h3 id="嵌套列表"><a href="#嵌套列表" class="headerlink" title="嵌套列表"></a>嵌套列表</h3><pre><code>1. 第一层
     + 第二层
         1. 第三层
 2. 第一层
@@ -524,7 +524,7 @@ function DeleteImage()
 <p>注：</p>
 <p>1. 记得数字或符号<code>.</code>后加空格</p>
 <p>2. 如仅需显示数字和<code>.</code>,需<code>\</code>来进行对<code>.</code>进行转义.如：<code>1\.</code></p>
-<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h5 id="行内式"><a href="#行内式" class="headerlink" title="行内式"></a>行内式</h5><p>格式为 <code>[link text](URL &#39;title text&#39;)</code>。</p>
+<h2 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h2><h3 id="行内式"><a href="#行内式" class="headerlink" title="行内式"></a>行内式</h3><p>格式为 <code>[link text](URL &#39;title text&#39;)</code>。</p>
 <p>1. 普通链接：</p>
 <p><a href="http://www.google.com/" target="_blank" rel="noopener">Google</a> </p>
 <pre><code>[Google](http://www.google.com/)
@@ -537,7 +537,7 @@ function DeleteImage()
 </code></pre><blockquote>
 <p>title 使用 ‘ 或 “ 都是可以的。</p>
 </blockquote>
-<h5 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h5><p>参考式链接的写法相当于行内式拆分成两部分，并通过一个 识别符 来连接两部分。参考式能尽量保持文章结构的简单，也方便统一管理 URL。</p>
+<h3 id="参考式"><a href="#参考式" class="headerlink" title="参考式"></a>参考式</h3><p>参考式链接的写法相当于行内式拆分成两部分，并通过一个 识别符 来连接两部分。参考式能尽量保持文章结构的简单，也方便统一管理 URL。</p>
 <p>1.定义链接：</p>
 <pre><code>[Google][link]
 </code></pre><p>第二个方括号内为链接独有的 识别符，可以是字母、数字、空白或标点符号。识别符是 不区分大小写 的；</p>
@@ -553,10 +553,10 @@ function DeleteImage()
 <p>3.也可以省略 识别符，使用链接文本作为 识别符：</p>
 <pre><code>[Google][]
 [Google]: http://www.google.com/ &quot;Google&quot;
-</code></pre><h5 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h5><p>使用 &lt;&gt; 包括的 URL 或邮箱地址会被自动转换为超链接：</p>
+</code></pre><h3 id="自动链接"><a href="#自动链接" class="headerlink" title="自动链接"></a>自动链接</h3><p>使用 &lt;&gt; 包括的 URL 或邮箱地址会被自动转换为超链接：</p>
 <pre><code>&lt;http://www.google.com/&gt;
 </code></pre><p><a href="http://www.google.com/" target="_blank" rel="noopener">http://www.google.com/</a></p>
-<h5 id="图像超链接"><a href="#图像超链接" class="headerlink" title="图像超链接"></a>图像超链接</h5><pre><code>![找不到图像文件时显示的文本](图像路径)
+<h3 id="图像超链接"><a href="#图像超链接" class="headerlink" title="图像超链接"></a>图像超链接</h3><pre><code>![找不到图像文件时显示的文本](图像路径)
 </code></pre><blockquote>
 <p>比文字超链接也就多个惊叹号。</p>
 </blockquote>
@@ -809,7 +809,7 @@ function DeleteImage()
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown简介"><span class="nav-number">1.</span> <span class="nav-text">Markdown简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown基本语法"><span class="nav-number">2.</span> <span class="nav-text">Markdown基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">2.1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#水平线"><span class="nav-number">2.2.</span> <span class="nav-text">水平线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体"><span class="nav-number">2.3.</span> <span class="nav-text">斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加粗"><span class="nav-number">2.4.</span> <span class="nav-text">加粗</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体加粗"><span class="nav-number">2.5.</span> <span class="nav-text">斜体加粗</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#块引用"><span class="nav-number">2.6.</span> <span class="nav-text">块引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码块"><span class="nav-number">2.7.</span> <span class="nav-text">代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#行内代码块"><span class="nav-number">2.7.0.0.1.</span> <span class="nav-text">行内代码块</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#多行代码块"><span class="nav-number">2.7.0.0.2.</span> <span class="nav-text">多行代码块</span></a></li></ol></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">2.8.</span> <span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#无序列表"><span class="nav-number">2.8.0.0.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#有序列表"><span class="nav-number">2.8.0.0.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#嵌套列表"><span class="nav-number">2.8.0.0.3.</span> <span class="nav-text">嵌套列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接"><span class="nav-number">2.9.</span> <span class="nav-text">链接</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#行内式"><span class="nav-number">2.9.0.0.1.</span> <span class="nav-text">行内式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#参考式"><span class="nav-number">2.9.0.0.2.</span> <span class="nav-text">参考式</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#自动链接"><span class="nav-number">2.9.0.0.3.</span> <span class="nav-text">自动链接</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#图像超链接"><span class="nav-number">2.9.0.0.4.</span> <span class="nav-text">图像超链接</span></a></li></ol></li></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown简介"><span class="nav-number">1.</span> <span class="nav-text">Markdown简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Markdown基本语法"><span class="nav-number">2.</span> <span class="nav-text">Markdown基本语法</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#标题"><span class="nav-number">2.1.</span> <span class="nav-text">标题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#水平线"><span class="nav-number">2.2.</span> <span class="nav-text">水平线</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体"><span class="nav-number">2.3.</span> <span class="nav-text">斜体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#加粗"><span class="nav-number">2.4.</span> <span class="nav-text">加粗</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#斜体加粗"><span class="nav-number">2.5.</span> <span class="nav-text">斜体加粗</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#块引用"><span class="nav-number">2.6.</span> <span class="nav-text">块引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码块"><span class="nav-number">2.7.</span> <span class="nav-text">代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#行内代码块"><span class="nav-number">2.7.1.</span> <span class="nav-text">行内代码块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#多行代码块"><span class="nav-number">2.7.2.</span> <span class="nav-text">多行代码块</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列表"><span class="nav-number">2.8.</span> <span class="nav-text">列表</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#无序列表"><span class="nav-number">2.8.1.</span> <span class="nav-text">无序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#有序列表"><span class="nav-number">2.8.2.</span> <span class="nav-text">有序列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#嵌套列表"><span class="nav-number">2.8.3.</span> <span class="nav-text">嵌套列表</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#链接"><span class="nav-number">2.9.</span> <span class="nav-text">链接</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#行内式"><span class="nav-number">2.9.1.</span> <span class="nav-text">行内式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#参考式"><span class="nav-number">2.9.2.</span> <span class="nav-text">参考式</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#自动链接"><span class="nav-number">2.9.3.</span> <span class="nav-text">自动链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#图像超链接"><span class="nav-number">2.9.4.</span> <span class="nav-text">图像超链接</span></a></li></ol></li></ol></li></ol></div>
             
 
           </div>
